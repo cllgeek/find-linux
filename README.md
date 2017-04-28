@@ -2,24 +2,17 @@
 Linux Command
 --- 
 
-[![](https://jaywcjlove.github.io/sb/ico/linux.svg)](https://jaywcjlove.github.io/linux-command/) [![](https://jaywcjlove.github.io/sb/ico/weibo.svg)](http://weibo.com/pc175)
-
-
 520多个 Linux 命令大全，内容包含 Linux 命令手册、详解、学习，值得收藏的 Linux 命令速查手册。请原谅我写了个爬虫，爬了他们家的数据[linuxde.net](http://man.linuxde.net)，同时进行了编辑，增加了一些数据。对他们的辛勤劳动表示敬意，个人希望能本地离线搜索，不喜欢广告，希望得到干净漂亮的预览界面，业余和工作时间需要使用大量的命令，所以干了一件看似比较愚蠢的事情，在回头有空的时候估计能做一个App？，或者是命令行帮助工具？但目前还没有计划...
 
-[Github Web版](https://jaywcjlove.github.io/linux-command/) | [开源中国Web版](http://jslite.oschina.io/linux-command) | [Alfred 版本下载](https://github.com/jaywcjlove/linux-command/releases) | [Android版本实现](https://github.com/Ernest-su/LinuxCmd.git) 
+[Web版](https://cllgeek.github.io/find-linux/)
 
 扫描二维码移动端预览搜索
 
-[![Linux 命令大全](./qr.png)](https://jaywcjlove.github.io/linux-command/)
+[![Linux 命令大全](./qr.png)](https://cllgeek.github.io/find-linux/)
 
 预览搜索：**https://git.io/linux**
 
-[![Linux 命令大全](./Linux.gif)](https://jaywcjlove.github.io/linux-command/)
-
-[Alfred 版本下载](https://github.com/jaywcjlove/linux-command/releases) 
-
-[![Linux 命令大全](./alfred.png)](https://github.com/jaywcjlove/linux-command/releases)
+[![Linux 命令大全](./Linux.gif)](https://cllgeek.github.io/find-linux/)
 
 ## 目录
 
@@ -46,7 +39,7 @@ Linux Command
 
 ## Linux命令分类
 
-*这里存放Linux 命令大全并不全，你可以通过[linux-command](https://jaywcjlove.github.io/linux-command/)来搜索，它是把 [command](./command) 目录里面搜集的命令，生成了静态HTML并提供预览以及索引搜索。*
+*这里存放Linux 命令大全并不全，你可以通过[find-linux](https://cllgeek.github.io/find-linux/)来搜索，它是把 [command](./command) 目录里面搜集的命令，生成了静态HTML并提供预览以及索引搜索。*
 
 ### 文件传输
 
@@ -99,12 +92,12 @@ yes
 ### Node调用
 
 ```
-npm install linux-command
+npm install find-linux
 ```
 
 
 ```js
-var comm = require("linux-command")
+var comm = require("find-linux")
 console.log("---->",comm.ls)
 
 ```
